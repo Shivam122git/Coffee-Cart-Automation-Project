@@ -1,0 +1,5 @@
+com\coffeecart\suites\TestNGRunner.class
+com\coffeecart\listeners\TestListener.class
+com\coffeecart\tests\CheckoutTests.class
+com\coffeecart\tests\CartTests.class
+com\coffeecart\tests\MenuTests.class

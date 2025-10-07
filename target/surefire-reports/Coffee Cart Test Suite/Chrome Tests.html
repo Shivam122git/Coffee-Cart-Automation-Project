@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>TestNG:  Chrome Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 07 19:11:49 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>221 seconds (221035 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.coffeecart.tests.MenuTests.testAddCappuccino()'><b>testAddCappuccino</b><br>Test class: com.coffeecart.tests.MenuTests<br>Test method: Add Cappuccino to cart</td>
+<td></td>
+<td>0</td>
+<td>com.coffeecart.tests.MenuTests@7f552bd3</td></tr>
+<tr>
+<td title='com.coffeecart.tests.MenuTests.testAddMultipleItemsToCart()'><b>testAddMultipleItemsToCart</b><br>Test class: com.coffeecart.tests.MenuTests<br>Parameters: Espresso, 1, $10.00</td>
+<td></td>
+<td>1</td>
+<td>com.coffeecart.tests.MenuTests@7f552bd3</td></tr>
+<tr>
+<td title='com.coffeecart.tests.MenuTests.testAddItemToCart()'><b>testAddItemToCart</b><br>Test class: com.coffeecart.tests.MenuTests<br>Test method: Verify adding items to cart</td>
+<td></td>
+<td>6</td>
+<td>com.coffeecart.tests.MenuTests@7f552bd3</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CheckoutTests.testCompleteCheckoutProcess()'><b>testCompleteCheckoutProcess</b><br>Test class: com.coffeecart.tests.CheckoutTests<br>Test method: Verify checkout process with valid data</td>
+<td></td>
+<td>5</td>
+<td>com.coffeecart.tests.CheckoutTests@2e4b8173</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CartTests.testCheckoutButton()'><b>testCheckoutButton</b><br>Test class: com.coffeecart.tests.CartTests<br>Test method: Verify checkout button functionality</td>
+<td></td>
+<td>0</td>
+<td>com.coffeecart.tests.CartTests@72a7c7e0</td></tr>
+<tr>
+<td title='com.coffeecart.tests.MenuTests.testAddMultipleItemsToCart()'><b>testAddMultipleItemsToCart</b><br>Test class: com.coffeecart.tests.MenuTests<br>Parameters: Cappuccino, 1, $19.00</td>
+<td></td>
+<td>6</td>
+<td>com.coffeecart.tests.MenuTests@7f552bd3</td></tr>
+<tr>
+<td title='com.coffeecart.tests.MenuTests.testAddMultipleItems()'><b>testAddMultipleItems</b><br>Test class: com.coffeecart.tests.MenuTests<br>Test method: Add multiple items to cart</td>
+<td></td>
+<td>3</td>
+<td>com.coffeecart.tests.MenuTests@7f552bd3</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CartTests.testCartTotalCalculation()'><b>testCartTotalCalculation</b><br>Test class: com.coffeecart.tests.CartTests<br>Test method: Verify cart total calculation</td>
+<td></td>
+<td>2</td>
+<td>com.coffeecart.tests.CartTests@72a7c7e0</td></tr>
+<tr>
+<td title='com.coffeecart.tests.MenuTests.testAddEspresso()'><b>testAddEspresso</b><br>Test class: com.coffeecart.tests.MenuTests<br>Test method: Add Espresso to cart</td>
+<td></td>
+<td>2</td>
+<td>com.coffeecart.tests.MenuTests@7f552bd3</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CheckoutTests.testCheckoutWithEmptyName()'><b>testCheckoutWithEmptyName</b><br>Test class: com.coffeecart.tests.CheckoutTests<br>Test method: Verify checkout with empty name field</td>
+<td></td>
+<td>8</td>
+<td>com.coffeecart.tests.CheckoutTests@2e4b8173</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CheckoutTests.testCheckoutWithInvalidEmail()'><b>testCheckoutWithInvalidEmail</b><br>Test class: com.coffeecart.tests.CheckoutTests<br>Test method: Verify checkout with invalid email<br>Parameters: @example.com, password123</td>
+<td></td>
+<td>5</td>
+<td>com.coffeecart.tests.CheckoutTests@2e4b8173</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CheckoutTests.testCheckoutWithInvalidEmail()'><b>testCheckoutWithInvalidEmail</b><br>Test class: com.coffeecart.tests.CheckoutTests<br>Test method: Verify checkout with invalid email<br>Parameters: invalid-email, password123</td>
+<td></td>
+<td>6</td>
+<td>com.coffeecart.tests.CheckoutTests@2e4b8173</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CartTests.testRemoveItemFromCart()'><b>testRemoveItemFromCart</b><br>Test class: com.coffeecart.tests.CartTests<br>Test method: Verify removing items from cart</td>
+<td></td>
+<td>16</td>
+<td>com.coffeecart.tests.CartTests@72a7c7e0</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CheckoutTests.testFormValidation()'><b>testFormValidation</b><br>Test class: com.coffeecart.tests.CheckoutTests<br>Test method: Verify customer information form validation</td>
+<td></td>
+<td>3</td>
+<td>com.coffeecart.tests.CheckoutTests@2e4b8173</td></tr>
+<tr>
+<td title='com.coffeecart.tests.MenuTests.testMenuItemsDisplay()'><b>testMenuItemsDisplay</b><br>Test class: com.coffeecart.tests.MenuTests<br>Test method: Verify menu items are displayed</td>
+<td></td>
+<td>2</td>
+<td>com.coffeecart.tests.MenuTests@7f552bd3</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CartTests.testEmptyCartBehavior()'><b>testEmptyCartBehavior</b><br>Test class: com.coffeecart.tests.CartTests<br>Test method: Verify empty cart behavior</td>
+<td></td>
+<td>0</td>
+<td>com.coffeecart.tests.CartTests@72a7c7e0</td></tr>
+<tr>
+<td title='com.coffeecart.tests.MenuTests.testAddMultipleItemsToCart()'><b>testAddMultipleItemsToCart</b><br>Test class: com.coffeecart.tests.MenuTests<br>Parameters: Americano, 1, $7.00</td>
+<td></td>
+<td>2</td>
+<td>com.coffeecart.tests.MenuTests@7f552bd3</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CartTests.testCartItemCount()'><b>testCartItemCount</b><br>Test class: com.coffeecart.tests.CartTests<br>Test method: Verify cart icon updates with item count</td>
+<td></td>
+<td>3</td>
+<td>com.coffeecart.tests.CartTests@72a7c7e0</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CheckoutTests.testCheckoutWithInvalidEmail()'><b>testCheckoutWithInvalidEmail</b><br>Test class: com.coffeecart.tests.CheckoutTests<br>Test method: Verify checkout with invalid email<br>Parameters: test@, password123</td>
+<td></td>
+<td>6</td>
+<td>com.coffeecart.tests.CheckoutTests@2e4b8173</td></tr>
+<tr>
+<td title='com.coffeecart.tests.CheckoutTests.testPromoCodeApplication()'><b>testPromoCodeApplication</b><br>Test class: com.coffeecart.tests.CheckoutTests<br>Test method: Verify promo code application<br>Parameters: DISCOUNT10, 10</td>
+<td></td>
+<td>5</td>
+<td>com.coffeecart.tests.CheckoutTests@2e4b8173</td></tr>
+</table><p>
+</body>
+</html>

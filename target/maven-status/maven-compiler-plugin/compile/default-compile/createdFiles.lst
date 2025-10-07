@@ -1,0 +1,8 @@
+com\coffeecart\pages\CartPage.class
+com\coffeecart\pages\BasePage.class
+com\coffeecart\managers\DriverManager.class
+com\coffeecart\pages\MenuPage.class
+com\coffeecart\utils\ConfigReader.class
+com\coffeecart\utils\ExcelReader.class
+com\coffeecart\data\TestDataProvider.class
+com\coffeecart\pages\CheckoutPage.class
